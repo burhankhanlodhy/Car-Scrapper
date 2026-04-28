@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.next/
+.env
+.env.local
+*.env
+service-account.json
+service-account*.json
+*.key.json
+.turbo/
+.cache/
+coverage/
+*.log
+.DS_Store
+Thumbs.db

@@ -1,0 +1,55 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "dealerships",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "state", "order": "ASCENDING" },
+        { "fieldPath": "lastScrapedAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "dealerships",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "cms.platform", "order": "ASCENDING" },
+        { "fieldPath": "status", "order": "ASCENDING" },
+        { "fieldPath": "lastScrapedAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "dealerships",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "state", "order": "ASCENDING" },
+        { "fieldPath": "cms.platform", "order": "ASCENDING" },
+        { "fieldPath": "lastScrapedAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "dealerships",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "status", "order": "ASCENDING" },
+        { "fieldPath": "lastScrapedAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "scrape_jobs",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "status", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "discovery_urls",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "status", "order": "ASCENDING" },
+        { "fieldPath": "enqueuedAt", "order": "ASCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

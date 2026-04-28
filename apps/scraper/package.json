@@ -1,0 +1,28 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "discover": "ts-node src/index.ts discover",
+    "scrape": "ts-node src/index.ts scrape",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@dealership-scraper/shared": "workspace:*",
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "firebase-admin": "^12.2.0",
+    "google-search-results-nodejs": "^2.1.0",
+    "p-queue": "^7.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

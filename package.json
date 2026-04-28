@@ -1,0 +1,13 @@
+{
+  "name": "dealership-intelligence-scraper",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "pnpm@9.0.0",
+  "scripts": {
+    "dev:dashboard": "pnpm --filter dashboard dev",
+    "build:dashboard": "pnpm --filter dashboard build",
+    "scraper:discover": "pnpm --filter scraper discover",
+    "scraper:scrape": "pnpm --filter scraper scrape",
+    "install:all": "pnpm install"
+  }
+}
